@@ -1,0 +1,11 @@
+<div>
+    <form [formGroup]="formulario" (ngSubmit)="submitForm()">
+        <div>
+            <input type="text" formControlName="username">
+        </div>
+          <div>
+            <input type="text" formControlName="password">
+        </div>
+        <button type="submit" [disabled]="formulario.invalid">Ingresar</button>
+    </form>
+</div>
