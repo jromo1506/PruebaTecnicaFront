@@ -10,7 +10,7 @@ export class GlobalApiService {
 
   constructor() { }
 
-  getUrl(){
+  public getUrl(){
     return this.apiUrl;
   }
 }
